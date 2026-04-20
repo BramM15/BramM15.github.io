@@ -1,13 +1,9 @@
-import { useState } from 'react'
+import MainSection from "./Components/main/mainSection";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className='text-2xl'>Site under construction</h1>
-      </div>
+        <MainSection />
     </>
   )
 }
